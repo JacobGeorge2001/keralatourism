@@ -12,7 +12,7 @@
         <a href="signup.html">Sign Up</a>
         <a href="district.html">District</a>
     </div>
-    <form action="#"class="signin">
+    <form action="district.html"class="signin" onsubmit="return lvalidate()">
         <h2>Create an account </h2>
         <br>
         <div class="signupcont">
@@ -36,19 +36,20 @@
         <div class="signupcont">
             <label>Email</label>
             <br>
-            <input type="text" placeholder="enter the email">
+            <input type="email" required placeholder="enter the email">
         </div>
         <br>
         <div class="signupcont">
             <label>Password</label>
             <br>
-            <input type="password" placeholder="enter password">
+            <input type="password" required placeholder="enter password">
         </div>
         <br>
         <div>
             <button id="Sign_Up">Sign Up</button>
         </div>
     </form>
-    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.1.18/jquery.backstretch.min.js" integrity="sha512-bXc1hnpHIf7iKIkKlTX4x0A0zwTiD/FjGTy7rxUERPZIkHgznXrN/2qipZuKp/M3MIcVIdjF4siFugoIc2fL0A==" crossorigin="anonymous"></script>
+        <script src="js/form1.js"></script>      
 </body>
 </html>
